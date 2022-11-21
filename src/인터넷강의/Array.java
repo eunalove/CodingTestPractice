@@ -1,4 +1,4 @@
-package 패스트캠퍼스;
+package 인터넷강의;
 import java.util.*;
 
 public class Array {
@@ -75,6 +75,7 @@ public class Array {
                         " Zlike Aldus PageMaker including versions of Lorem Ipsum."
         };
 
+        //글자 갯수세기
         int count =0;
         for(int i=0; i<dataset.length;i++){
             if(dataset[i].contains("Z"))
