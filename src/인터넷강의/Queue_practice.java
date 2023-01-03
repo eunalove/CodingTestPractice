@@ -23,7 +23,6 @@ public class Queue_practice<T> {
 
         //큐
         //줄을 서는 행위와 유사
-        //
         Queue<Integer> queue_int = new LinkedList<>();
 
         queue_int.add(1); //추가
