@@ -14,7 +14,7 @@ public class S17144 {
     static int[] Dc = {0,0,-1,1};
     //마찬가지로 상하좌우
 
-    static int solve(){
+    static int solve17144(){
         for(int t=0; t<T; ++t){
             //미세먼지 확산
             int[][] diffusion = new int[50][50];
@@ -125,7 +125,7 @@ public class S17144 {
         }
         //여기까지 입력은 다 받았으니 solve()를 통해 정답을 도출해보자
 
-        System.out.println(solve());
+        System.out.println(solve17144());
 
     }
 

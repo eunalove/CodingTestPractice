@@ -27,7 +27,7 @@ class S17779{
 
     }
 
-    static int solve4() {
+    static int solve17779() {
         int ret = INF;
         //5번 선거구를 지정하자 그러려면 x,y,d1,d2가 필요한데 없어
         //그럼 x,y,d1,d2를 모두 고려하기 위해 for문으로 죄다 돌려버리자
@@ -124,7 +124,7 @@ class S17779{
             }
         }
 
-        System.out.println(solve4());
+        System.out.println(solve17779());
 
     }
 
